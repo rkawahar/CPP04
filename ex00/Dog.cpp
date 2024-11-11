@@ -6,7 +6,7 @@
 /*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:00:09 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/11/11 16:44:05 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2024/11/11 16:59:28 by kawaharadar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,6 @@ Dog& Dog::operator=(const Dog& other) {
 	return *this;
 }
 
-void Dog::makeSound() {
+void Dog::makeSound() const{
 	std::cout << "Dog: wan wan!" << std::endl;
 }

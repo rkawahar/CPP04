@@ -6,7 +6,7 @@
 /*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:12:32 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/11/11 16:44:57 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2024/11/11 17:11:39 by kawaharadar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,6 @@ Cat& Cat::operator=(const Cat& other) {
 	return *this;
 }
 
-void Cat::makeSound(){
-	std::cout << "Cat : ..." << std::endl;
+void Cat::makeSound() const {
+	std::cout << "Cat: ..." << std::endl;
 }

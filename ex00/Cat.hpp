@@ -6,7 +6,7 @@
 /*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:12:29 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/11/11 16:44:23 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2024/11/11 16:59:23 by kawaharadar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ class Cat: public Animal {
 		~Cat();
 		Cat(const Cat& other);
 		Cat& operator=(const Cat& other);
-		void makeSound();
+		void makeSound() const;
 };
 
 #endif
