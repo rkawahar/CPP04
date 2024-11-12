@@ -1,9 +1,9 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 DEBUG = -g -fsanitize=address
-SRCS = main.cpp Animal.cpp Dog.cpp Cat.cpp WrongCat.cpp WrongAnimal.cpp Brain.cpp
+SRCS = main.cpp AAnimal.cpp Dog.cpp Cat.cpp WrongCat.cpp WrongAnimal.cpp Brain.cpp
 OBJS = $(SRCS:.cpp=.o)
-TARGET = ex01
+TARGET = ex02
 TARGET1 = debug
 
 all: $(TARGET)
