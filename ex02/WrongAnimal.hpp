@@ -6,7 +6,7 @@
 /*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:24:47 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/11/11 21:24:37 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2024/11/11 17:27:09 by kawaharadar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class WrongAnimal {
 		WrongAnimal(const WrongAnimal& other);
 		WrongAnimal& operator=(const WrongAnimal& other);
 		std::string getType() const;
-		void makeSound() const ;
+		virtual void makeSound() const ;
 };
 
 #endif
